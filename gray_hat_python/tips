@@ -1,0 +1,12 @@
+ctrl space     code completion
+ctrl J/ctrl alt T   tempelate
+alt q              view context info
+ctrl p             find parameters
+ctrl shift i       view definition
+ctrl shift f       find in the project
+alt f7             find usage read/write
+ctrl b             jump to its definition
+ctrl n/ctrl shift n/ctrl alt shift n
+ctrl shift a       command
+f11/ctrl f11                book mark
+alt up/down        navigate up/down method
