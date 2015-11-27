@@ -1,0 +1,20 @@
+sed "s/bbb/eee/" input.txt
+sed -e "s/bbb/eee/" input.txt
+sed -e "s/bbb/eee/g" input.txt
+sed -e "2s/bbb/eee/g" input.txt
+sed -e "s/aaa//g" input.txt
+sed -e "s/\//R/" input.txt
+sed -e "s/aaa/+&+/g" input.txt
+sed -e "s/.*/output: &/g" input.txt
+sed -e 's/bbb/eee/p' input.txt
+sed -e -n 's/bbb/eee/p' input.txt
+sed -n -e 's/bbb/eee/p' input.txt
+sed -e 'y/abcde/ABCDE/' input.txt
+sed -e '1,2d' input.txt
+sed -e '/^aaa/d' input.txt
+sed -e 'd' input.txt
+sed -n -e '1,3p' input.txt 
+sed -n -e '2,$p' input.txt
+sed -n -e '/^aaa/,/ddd$/p' input.txt
+sed -e '2d;s/aaa/eee/g' input.txt 
+sed '1,2d' input.txt 
